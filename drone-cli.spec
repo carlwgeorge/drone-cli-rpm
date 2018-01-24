@@ -14,7 +14,7 @@
 %global import_path github.com/drone/drone-cli
 
 Name: drone-cli
-Version: 0.8.0
+Version: 0.8.1
 Release: 1%{?dist}
 Summary: Command line client for the Drone continuous integration server
 License: ASL 2.0
@@ -51,5 +51,8 @@ install -D -m 0755 bin/drone %{buildroot}%{_bindir}/drone
 
 
 %changelog
+* Wed Jan 24 2018 Carl George <carl@george.computer> - 0.8.1-1
+- Latest upstream
+
 * Fri Nov 24 2017 Carl George <carl@george.computer> - 0.8.0-1
 - Initial package
